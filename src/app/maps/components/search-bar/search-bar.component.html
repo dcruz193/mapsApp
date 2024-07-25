@@ -1,0 +1,8 @@
+<div class="position-relative mt-3">
+    <input type="search"
+        class="form-control shadow-sm m-auto" style="width: 20rem;" placeholder="Buscar algo..."
+        #txtQuery
+        (keyup)="onQueryChange(txtQuery.value)"
+    >
+    <app-search-result />
+</div>
